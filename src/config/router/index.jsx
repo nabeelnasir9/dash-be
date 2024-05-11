@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect } from "react";
 import { Toaster } from "react-hot-toast";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import { Dashboard, Orders, Profile, PromptEditor, Login } from "../../pages";
+import { Dashboard, Orders, Profile, Login } from "../../pages";
 import ProtectedRoute from "./ProtectedRoutes";
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -27,7 +27,6 @@ const RouterNavigation = () => {
           <Route element={<ProtectedRoute />}>
             <Route path="/" element={<Dashboard />} />
             <Route path="/orders" element={<Orders />} />
-            <Route path="/prompts" element={<PromptEditor />} />
             <Route path="/profile" element={<Profile />} />
           </Route>
           <Route path="/log-in" element={<Login />} />

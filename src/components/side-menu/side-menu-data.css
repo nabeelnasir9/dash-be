@@ -44,7 +44,7 @@
   font-weight: 500 !important;
   font-size: 16px !important;
   text-transform: capitalize !important;
-  color: #9034c9 !important;
+  color: #1570ef !important;
   justify-content: flex-start !important;
   background-color: transparent !important;
   height: 48px !important;
@@ -63,7 +63,7 @@
   font-family: "Inter" !important;
 }
 .side-menu-page:hover {
-  color: #9034c9 !important;
+  color: #1570ef !important;
 }
 .side-menu-page-title {
   margin-left: 10px;

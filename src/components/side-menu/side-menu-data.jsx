@@ -4,9 +4,8 @@ import { useTheme } from "@mui/material";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { Button } from "@mui/material";
 import { useLocation, useNavigate } from "react-router-dom";
-import Logo from "../../assets/synthseer.png";
+import Logo from "../../assets/logo512.png";
 import GridViewIcon from "@mui/icons-material/GridView";
-import CreateIcon from "@mui/icons-material/Create";
 import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 const SideMenuData = () => {
@@ -65,23 +64,6 @@ const SideMenuData = () => {
                     <span className="side-menu-page-title">Orders</span>
                   </Button>
                 </li>
-                <li className="side-menu-list-item">
-                  <Button
-                    variant="text"
-                    className={
-                      CurrentPagePath === "/prompts"
-                        ? "side-menu-active-page"
-                        : "side-menu-page"
-                    }
-                    onClick={() => {
-                      navigate("/prompts");
-                    }}
-                  >
-                    <CreateIcon />
-                    <span className="side-menu-page-title">Prompts</span>
-                  </Button>
-                </li>
-
                 <li className="side-menu-list-item">
                   <Button
                     variant="text"

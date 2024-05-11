@@ -35,7 +35,7 @@ export default function Login() {
         />
         <br />
         <button
-          className="bg-gradient-to-r from-violet-500 to-fuchsia-500 px-5 py-3 text-white rounded-xl"
+          className="bg-gradient-to-r from-blue-500 to-sky-500 px-5 py-3 text-white rounded-xl"
           onClick={handleLogin}
         >
           Login

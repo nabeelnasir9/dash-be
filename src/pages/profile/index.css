@@ -33,7 +33,7 @@
   text-align: center;
 }
 .profile-upload-button {
-  background-color: #9034c9;
+  background-color: #577cdd;
   height: 44px;
   width: 140px;
   border-radius: 8px;
@@ -127,7 +127,7 @@ input[type="number"] {
 }
 
 .save-btn {
-  background-color: #9034c9 !important;
+  background-color: #577cdd !important;
   height: 44px !important;
   font-family: "Inter" !important;
   font-size: 16px !important;
