@@ -1,0 +1,13 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter";
+}
+body {
+  background-color: #f0f1f3;
+}
+input {
+  border: none;
+  outline: none;
+  background: none;
+}

@@ -1,0 +1,125 @@
+.dashboard-box {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 15px;
+}
+.dashboard-box-title {
+  color: #383e49;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.dashboard-box-innner {
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #f0f1f3;
+  padding: 0px 15px;
+  margin-top: 25px;
+}
+.dashboard-box-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-box-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.dashboard-box-price {
+  color: #5d6679;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dashboard-box-footer-title {
+  color: #667085;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+}
+.dashboard-box-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard-box-right > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 15px;
+}
+.dashboard-box-right > div > img {
+  height: 30px;
+}
+.dashboard-box-right-counter {
+  text-align: center;
+  color: #5d6679;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.dashboard-box-right-title {
+  color: #444444;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 3px;
+}
+.dashboard-box-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard-box-header-filter-btn {
+  color: #5d6679 !important;
+  font-family: "Inter" !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  border: 1px solid #d0d3d9 !important;
+}
+.dashboard-filter-list {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  font-family: "Inter" !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  margin-top: 10px !important;
+}
+@media only screen and (max-width: 1500px) {
+  .dashboard-box-innner {
+    padding: 0px 10px;
+  }
+  .dashboard-box-price {
+    font-size: 12px;
+  }
+  .dashboard-box-footer-title {
+    font-size: 10px;
+  }
+  .dashboard-box-right-counter {
+    font-size: 14px;
+  }
+  .dashboard-box-right-title {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 599px) {
+  #dashboard-box-right-border-hide {
+    border-right-width: 0px;
+  }
+}

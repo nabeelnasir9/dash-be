@@ -1,0 +1,150 @@
+.profile-container {
+  margin-top: 15px;
+}
+.profile-sec {
+  background-color: #ffffff;
+  border-radius: 11px;
+  padding: 15px;
+}
+.profile-left-sec-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-img {
+  width: 88px;
+  height: 88px;
+  border-radius: 100px;
+}
+.profile-username {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.profile-left-sec-text {
+  color: #72747c;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+.profile-upload-button {
+  background-color: #9034c9;
+  height: 44px;
+  width: 140px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.profile-upload-button > p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.profile-remove-btn {
+  color: #181818 !important;
+  font-family: "Inter" !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+  margin-top: 10px !important;
+  width: 140px !important;
+}
+.profile-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-input-main {
+  /* border: 1px solid red; */
+}
+.profile-input-main > p {
+  color: #181818;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.profile-input-main > div {
+  border: 1px solid #d9d9d9;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-input-main > div > input {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  border-radius: 8px;
+  color: #000000;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+}
+.profile-input-inner {
+  width: 49%;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.profile-input-main > div > div {
+  background-color: #f4f4f4;
+  width: 50px;
+  height: 100%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.profile-input-main > div > div > p {
+  color: #bfbfbf;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.save-btn {
+  background-color: #9034c9 !important;
+  height: 44px !important;
+  font-family: "Inter" !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  text-transform: none !important;
+  width: 115px !important;
+  margin-top: 15px !important;
+}
+
+@media only screen and (max-width: 599px) {
+  .profile-input-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .profile-input-inner {
+    width: 100%;
+  }
+}
